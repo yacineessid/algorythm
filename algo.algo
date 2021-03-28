@@ -1,0 +1,31 @@
+ALGORITHM Algo2
+//declaration variables
+Var
+ A : ARRAY_OF INTEGER[n1];
+ B : ARRAY_OF INTEGER[n2];
+ i , j  ,sum: INTEGER
+ 
+BEGIN
+ write ("lentgh of A")
+ read (n1)
+ write("lentgh of B")
+ read (n2)
+//somme
+ sum = 0
+FOR i FROM 0 TO n1-1 STEP step 1  DO
+FOR j FROM 0 TO n2-1 STEP step  DO
+
+ IF (A[i]<>B[i] and j<n2-1) THEN
+     
+
+ ELSE_IF (A[i]<>B[j]and j=n2-1) THEN
+
+ END_IF 
+    END_IF
+END_IF
+END_FOR
+END_FOR
+END 
+
+
+
